@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Breaking Bad - TP Prog III</title>
+</head>
+<body>
+    <header>
+        
+        <div>
+            <a href="index.html"><img src="images/BB Images/Heisenberg - Logo2.jpeg" alt="Logo Breaking Bad"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article class="principal">
+            <div>
+                <img src="images/BB Images/Breaking bad portada.jpg" alt="Breaking Bad logo">
+                <h2>De profesor de quimica, a ser el narcotraficanente mas buscado por la DEA</h2>
+                <p>El profesor calmado de química de una secundaria, Walter White cree que su vida no puede ser peor. Su salario apenas le alcanza para sostener a su familia, una situación que no mejora cuando su esposa da a luz y su hijo adolescente sufre de parálisis cerebral, pero Walter queda anonadado cuando se entera que tiene un cáncer terminal. Al concluir que su enfermedad iba a arruinar financieramente a su familia, él toma una decisión desesperada con el fin de ganar más dinero durante el tiempo que le queda y transforma un viejo vehículo de recreación en un laboratorio de matanfetaminas sobre ruedas.</p>
+            </div>
+        </article>
+        <h1>INICIO</h1>
+        <article class="secundario">
+            <div>
+                <a href="#">
+                    <img src="images/BB Images/inicio_personajes.jpeg" alt="">
+                    <h4>Personajes</h4>
+                </a>
+            </div>
+            <div>
+                <a href="galeria.html">
+                    <img src="images/BB Images/inicio_galeria.png" alt="">
+                    <h4>Galeria</h4>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/BB Images/inicio_resenas.jpg" alt="">
+                    <h4>Reseñas</h4>
+                </a>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <a href="https://www.facebook.com/BreakingBad/?locale=es_LA"><img src="images/redes/facebook.png" alt="Facebook"></a>
+        <a href="https://x.com/breakingbad?lang=es"><img src="images/redes/twitter.png" alt="Twitter"></a>
+        <a href="https://www.youtube.com/@breakingbad"><img src="images/redes/youtube.png" alt="Youtube"></a>
+        <a href="https://www.instagram.com/breakingbad/?hl=es"><img src="images/redes/instagram.png" alt="Instagram"></a>
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+</body>
+</html>
