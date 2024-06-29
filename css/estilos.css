@@ -5,6 +5,11 @@
 }
 body{
 	font-family: 'Rubik', sans-serif;
+	background-image: url("../images/breaking_bad_fondo.webp");
+	background-repeat: no-repeat;
+	background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+	background-position: right;  
+	background-attachment: fixed;
 }
 header{
 	padding-top: 2%;
@@ -43,9 +48,9 @@ section{
 .principal{
 	width: 100%;
 	height: 650px; 
-	background-image: url(../images/BB Images/Breaking bad portada.jpg);
+	/* background-image: url(../images/Breaking_bad_portada.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -59,9 +64,9 @@ section{
 .principal-personajes{
 	width: 100%;
 	height: 650px; 
-	background-image: url(../images/BB Images/Breaking bad portada.jpg);
+	/* background-image: url(../images/Breaking_bad_portada.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -120,6 +125,11 @@ h1{
 	text-align: center;
 	margin-top: 3.0em;
 }
+
+#h1-index{
+	display: none;
+}
+
 .form{
 	width:90%;
 	height:440px;
@@ -232,10 +242,11 @@ section{
 	margin-right: auto;
 }
 .principal{
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-bottom: 150px;
 	height: 250px;
 	padding: 10%;
+	color: #ffffff;
 }
 
 .principal-personajes{
@@ -278,6 +289,7 @@ h2{
 }
 h4{
 	font-size: 1rem;
+	color: #ffffff;
 }
 footer{
 	height: 80px;
