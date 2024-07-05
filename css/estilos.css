@@ -4,11 +4,11 @@
 	box-sizing: border-box;
 }
 body{
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Rubik', sans-serif, 'Josefin Sans';
 	background-image: url("../images/breaking_bad_fondo.webp");
 	background-repeat: no-repeat;
 	background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
-	background-position: right;  
+	background-position: right;
 	background-attachment: fixed;
 }
 header{
@@ -46,10 +46,15 @@ section{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+h2{
+	color: #ffffff;
+}
+
 .principal{
 	width: 100%;
 	margin-top: 90px;
-	height: 650px; 
+	height: 650px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -62,7 +67,7 @@ section{
 
 .principal-personajes{
 	width: 100%;
-	height: 650px; 
+	height: 650px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -75,7 +80,7 @@ section{
 
 .principal-resenas{
 	width: 100%;
-	height: 650px; 
+	height: 650px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -88,7 +93,7 @@ section{
 
 .principal-contacto{
 	width: 100%;
-	height: 650px; 
+	height: 650px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -101,7 +106,7 @@ section{
 
 .principal-galeria{
 	width: 100%;
-	height: 650px; 
+	height: 650px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -128,10 +133,10 @@ section{
 
 .secundario-personajes{
 	margin-top: 5%;
-	display: flex;
+	display: block;
 }
 .secundario-personajes div{
-	width: 33%;
+	width: 100%;
 	padding: 2%;
 	text-align: center;
 }
@@ -139,18 +144,19 @@ section{
 	width: 100%;
 	margin-bottom: 2rem;
 }
-
 .secundario-personajes div p{
 	text-align: left;
+	color: #ffffff;
 }
 
 .secundario-resenas {
 	margin-top: 5%;
 	display: flex;
+	color: #ffffff;
 }
 
 .secundario-resenas div{
-	width: 33%;
+	width: 100%;
 	padding: 2%;
 	text-align: center;
 }
@@ -159,8 +165,9 @@ section{
 	margin-bottom: 2rem;
 }
 
-.secundario-resenas div p{
-	text-align: left;
+.secundario-resenas div a h2{
+	margin-bottom: 1rem;
+	color: #ffae00;
 }
 
 h4{
@@ -169,16 +176,23 @@ h4{
 	color: #ffffff;
 }
 footer{
+	color: #ffffff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 350px;
 }
+
+footer p{
+	text-align: left;
+	margin-right: 100px;
+}
+
 footer img{
-	max-width: 2.5rem;
-	width: 100%;
+	max-width: 4rem;
+	width: 70%;
 	height: auto;
-	margin-right: .5%;
+	margin-right: 10px;
 }
 h1{
 	text-align: center;
@@ -191,7 +205,7 @@ h1{
 }
 
 .form{
-	width:90%;
+	width:50%;
 	height:440px;
 	background:#ffffff;
 	/* background:#e6e6e6; */
@@ -200,9 +214,16 @@ h1{
 	margin:calc(1vh) auto;
 	padding:10px 30px;
 	box-sizing:border-box;
-	font-family:'Montserrat',sans-serif;
+	/* font-family:'Montserrat',sans-serif; */
 	font-size: 14px;
-	position:relative
+	position:relative;
+	margin-left: 0%;
+}
+
+.form img {
+	display: flex;
+	margin-left: 45rem;
+	margin-top: -25rem;
 }
 
 h3.contacto{
@@ -248,6 +269,7 @@ button:hover{
 div.pie_contacto{
 	position: absolute;
 	bottom:15px;
+	left: 20px;
 	/* display: flex; */
 	background:#50505a;
 	color:#fff;
@@ -261,7 +283,7 @@ div.pie_contacto span{
 	margin:0 5px 0 15px;
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
 header{
 	align-items: center;
 	justify-content: space-around;
@@ -356,6 +378,7 @@ section{
 	margin-right: auto;
 	margin-left: auto;
 	width: 90%;
+	text-align: center;
 }
 .secundario-personajes div a img{
 	margin-bottom: 1rem;
@@ -363,7 +386,7 @@ section{
 
 .secundario-resenas{
 	margin-top: 1%;
-	display: block;
+	display: flex;
 	color: #ffffff;
 }
 
@@ -372,16 +395,20 @@ section{
 	margin-left: auto;
 	width: 90%;
 }
-.secundario-resenas div a{
+.secundario-resenas div a h2{
 	margin-bottom: 1rem;
-	color: #00ffff;
-
+	color: #ffae00;
 }
 
+.form{
+	width: 90%;
+	margin-left: 5%;
+}
 .form img {
-	display: flex; 
-	margin-left: 15rem; 
-	margin-top: -4rem; 
+	display: flex;
+	margin-left: 15rem;
+	margin-top: -4rem;
+	width: 70px;
 }
 
 h2{
@@ -400,9 +427,15 @@ footer{
 
 footer p{
 	text-align: left;
+	margin-right: 0;
+	width: 100px;
+	margin-bottom: 20px;
 }
 
 footer img{
+	margin-right: 10px;
 	max-width: 3rem;
+	width: 70%;
+	height: auto;
 }
 }
