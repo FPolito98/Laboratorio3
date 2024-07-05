@@ -18,6 +18,7 @@ header{
 	padding-left: 7%;
 	display: flex;
 	justify-content: space-between;
+	background-color: #ffffff;
 }
 nav ul{
 	margin-top: 3%;
@@ -47,11 +48,12 @@ section{
 }
 .principal{
 	width: 100%;
+	margin-top: 90px;
 	height: 650px; 
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #000000;
+	color: #ffffff;
 }
 .principal div img{
 	width: 100%;
@@ -111,7 +113,7 @@ section{
 }
 
 .secundario{
-	margin-top: 5%;
+	margin-top: 10%;
 	display: flex;
 }
 .secundario div{
@@ -164,6 +166,7 @@ section{
 h4{
 	font-size: 1.5rem;
 	text-transform: uppercase;
+	color: #ffffff;
 }
 footer{
 	display: flex;
