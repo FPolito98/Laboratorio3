@@ -208,6 +208,22 @@ a img {
   opacity: 1;
 }
 
+
+.secundario{
+	margin-top: 1%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* gap: 10px; */
+}
+
+.secundario div{
+	margin-right: auto;
+	margin-left: auto;
+}
+.secundario div a img{
+	margin-bottom: 1rem;
+}
+
 @media (max-width: 480px) { 
   header{
     align-items: center;
@@ -252,6 +268,11 @@ a img {
   .principal{
     height: 100px;
     padding: 10%;
+  }
+
+  .secundario{
+    margin-top: 1%;
+    display: block;
   }
   .secundario div{
     margin-right: auto;
