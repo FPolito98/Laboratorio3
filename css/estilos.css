@@ -283,6 +283,47 @@ div.pie_contacto span{
 	margin:0 5px 0 15px;
 }
 
+@media (max-width: 880px) {
+	header{
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		background-color: #ffffff;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
+	header div, header a {
+		flex: 1 0 50%;
+	}
+	header nav {
+		flex-basis: 100%;
+	}
+	.icon {
+		display: block;
+		padding-right: 0.6rem;
+		text-align: right;
+	}
+	nav ul {
+		display: none;
+	}
+	nav.responsive ul {
+		display: block;
+	}
+	nav.responsive ul li {
+		display: block;
+		text-align: center;
+		padding: 0.5rem;
+	}
+	nav.responsive ul li a {
+		padding-right: 0;
+	}
+
+	.principal-galeria{
+		height: 250px;
+		padding: 10%;
+	}
+}
 @media (max-width: 480px) {
 header{
 	align-items: center;
